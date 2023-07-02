@@ -8,6 +8,7 @@ const AgeResult = ({ age }) => {
   );
 };
 
+
 AgeResult.propTypes = {
   age: PropTypes.shape({
     years: PropTypes.number.isRequired,
