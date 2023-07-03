@@ -8,8 +8,8 @@ const AgeCalculatorForm = ({ calculateAge }) => {
     setBirthDate(e.target.value);
   };
   const handleSubmit = (e) => {
-    e.preventDefault();
-    calculateAge(birthDate);
+      e.preventDefault();
+      calculateAge(birthDate);
   };
 
   return (
